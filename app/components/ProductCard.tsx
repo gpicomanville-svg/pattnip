@@ -1,7 +1,7 @@
 'use client'
 
 import { Product } from '@/app/lib/products'
-import { useCart } from '@/app/context/CartContext'
+import { useCart } from '@/app/lib/cart'
 import { useState } from 'react'
 
 export default function ProductCard({ product }: { product: Product }) {

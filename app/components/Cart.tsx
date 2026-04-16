@@ -1,6 +1,6 @@
 'use client'
 
-import { useCart } from '@/app/context/CartContext'
+import { useCart } from '@/app/lib/cart'
 
 export default function Cart() {
   const { items, isOpen, closeCart, removeItem, updateQty, totalItems, totalPrice, clearCart } = useCart()

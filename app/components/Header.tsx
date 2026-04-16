@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { useCart } from '@/app/context/CartContext'
+import { useCart } from '@/app/lib/cart'
 
 export default function Header() {
   const { totalItems, toggleCart } = useCart()
